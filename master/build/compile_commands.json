@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/src/mprpcapplication.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/src/mprpcconfig.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/src/rpcheader.pb.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/src/rpcprovider.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/src/mprpcchannel.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/src/mprpcchannel.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/src/mprpccontroller.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/src/logger.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/src/logger.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/src/zookeeperutil.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/src/zookeeperutil.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/example/callee",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/example/callee/friendservice.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/example/callee/friendservice.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/example/callee",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/example/friend.pb.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/example/friend.pb.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/example/caller",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/consume.dir/callfriendservice.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/example/caller/callfriendservice.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/example/caller/callfriendservice.cc"
+},
+{
+  "directory": "/home/yrt/下载/分布式网络通信/MPRPC/build/example/caller",
+  "command": "/usr/bin/c++  -I/home/yrt/下载/分布式网络通信/MPRPC/src/include -I/home/yrt/下载/分布式网络通信/MPRPC/src -I/home/yrt/下载/分布式网络通信/MPRPC/example -g -o CMakeFiles/consume.dir/__/friend.pb.cc.o -c /home/yrt/下载/分布式网络通信/MPRPC/example/friend.pb.cc",
+  "file": "/home/yrt/下载/分布式网络通信/MPRPC/example/friend.pb.cc"
+}
+]

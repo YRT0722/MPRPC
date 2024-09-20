@@ -1,0 +1,29 @@
+syntax= "proto3";
+
+package  fixbug;
+
+option cc_generic_services =true;
+
+// message 定义数据结构数据 
+message Resultcode {
+    int32 errcode = 1; // 字段编号，高效地编码和解码数据
+    string errmsg = 2;
+}
+
+// 定义登陆响应消息类型
+message GetFriendsListResponse {
+    Resultcode result = 1;
+    repeated bytes friends=2;
+}
+
+message GetFriendsListRequest
+{
+    uint32  userid = 1;
+}
+
+///service定义远程调用方法调用方法
+service UserFriendRpc
+{
+    rpc GetFrinendsList(GetFriendsListRequest) returns(GetFriendsListResponse);
+    
+}

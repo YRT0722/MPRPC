@@ -1,0 +1,9 @@
+17:40:40:[INFO]==>first log messasge!
+17:40:40:[INFO]==>/home/yrt/下载/分布式网络通信/MPRPC/example/callee/friendservice.cc:main:49
+17:40:40:[INFO]==>first log messasge!
+19:34:34:[INFO]==>first log messasge!
+19:34:34:[INFO]==>/home/yrt/下载/分布式网络通信/MPRPC/example/callee/friendservice.cc:main:49
+19:34:34:[INFO]==>first log messasge!
+19:47:47:[INFO]==>first log messasge!
+19:47:47:[INFO]==>/home/yrt/下载/分布式网络通信/MPRPC/example/callee/friendservice.cc:main:49
+19:47:47:[INFO]==>first log messasge!

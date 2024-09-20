@@ -1,0 +1,58 @@
+syntax = "proto3"; // 声明使用的语法版本
+
+package fixbug; // 声明代码所在包（类似C++的namespace）
+
+//定义下面的选项，表示生存描述service服务类和rpc方法描述
+option cc_generic_services = true;
+
+// message 定义数据结构数据 
+message Resultcode {
+    int32 errcode = 1; // 字段编号，高效地编码和解码数据
+    string errmsg = 2;
+}
+
+// 定义登陆请求消息类型 数据 列表 映射表map<int32,string>test=3;
+message LoginRequest {
+    bytes name = 1;
+    bytes pwd = 2;
+}
+
+// 定义登陆响应消息类型
+message LoginResponse {
+    Resultcode result = 1;
+    bool success = 2;
+}
+
+// 定义获取好友列表请求消息类型
+message GetFriendListsRequest {
+    uint32 userid = 1;
+}
+
+// 定义用户信息消息类型
+message User {
+    bytes name = 1;
+    uint32 age = 2;
+    
+    // 定义性别枚举类型
+    enum Sex {
+        MAN = 0;
+        WOMAN = 1;
+    }
+    
+    Sex sex = 3;
+}
+
+// 定义获取好友列表响应消息类型
+message GetFriendListsResponse {
+    Resultcode result = 1;
+    repeated User user = 2; // 定义了一个用户列表类型
+}
+
+///service定义远程调用方法调用方法
+service UserServiceRpc
+{
+    rpc Login(LoginRequest) returns(LoginResponse);
+    rpc GetFriendLists(GetFriendListsRequest) returns(GetFriendListsResponse);
+}
+
+

@@ -1,0 +1,44 @@
+syntax= "proto3";
+
+package  fixbug;
+
+option cc_generic_services =true;
+
+// message 定义数据结构数据 
+message Resultcode {
+    int32 errcode = 1; // 字段编号，高效地编码和解码数据
+    string errmsg = 2;
+}
+
+// 定义登陆请求消息类型 数据 列表 映射表map<int32,string>test=3;
+message LoginRequest {
+    bytes name = 1;
+    bytes pwd = 2;
+}
+
+// 定义登陆响应消息类型
+message LoginResponse {
+    Resultcode result = 1;
+    bool success = 2;
+}
+
+message RegisterRequest
+{
+    uint32 id = 1;
+    bytes name = 2;
+    bytes pwd = 3;
+}
+
+message RegisterResponse
+{
+    Resultcode result = 1;
+    bool success = 2;
+}
+
+///service定义远程调用方法调用方法
+service UserServiceRpc
+{
+    rpc Login(LoginRequest) returns(LoginResponse);
+    rpc Register(RegisterRequest) returns(RegisterResponse);
+}
+
